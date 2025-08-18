@@ -1,0 +1,8 @@
+Existing User Stories:
+First-Time Visitor
+Casual Gamer
+Prospective Customer
+Customer
+
+New User Stories:
+As a Prospective Customer, I need to find information about stock and availability of games so that I can make a decision on a purchase.
