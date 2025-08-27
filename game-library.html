@@ -357,6 +357,65 @@
           </div>
         </div>
       </section>
+
+      <!-- Reserve a game section -->
+      <section id="reserve-game" class="container section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Reserve a game</h2>
+          </div>
+          <div class="container-md col-12 col-md-8">
+            <p class="my-4">
+              Reserve a board game for your next visit to Boardwalk Games. Pick
+              your challenge, and let the adventure begin! Fill out your details
+              and preferred game below, and we'll have it set aside for you when
+              you arrive.
+            </p>
+            <form action="success.html" method="GET" class="row g-3">
+              <div class="col-lg-4">
+                <label for="input-name" class="form-label">Full name</label>
+                <input type="text" class="form-control" id="input-name" required />
+              </div>
+              <div class="col-lg-4">
+                <label for="input-phone" class="form-label">Phone number</label>
+                <input type="tel" class="form-control" id="input-phone" required />
+              </div>
+              <div class="col-lg-4">
+                <label for="input-email" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="input-email"
+                  placeholder="email@example.com"
+                  required
+                />
+              </div>
+              <div class="col-lg-8">
+                <label for="input-game" class="form-label">Select game</label>
+                <select id="input-game" class="form-select" required>
+                  <option value="" disabled selected>Select game</option>
+                  <option>Game 1</option>
+                  <option>Game 2</option>
+                  <option>Game 3</option>
+                </select>
+              </div>
+              <div class="col-lg-4">
+                <label for="input-date" class="form-label"
+                  >Requested date</label
+                >
+                <input type="date" class="form-control" id="input-date" required />
+              </div>
+              <div class="col-12 d-flex justify-content-end">
+                <button type="submit" class="btn custom-button-outline mt-3">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer / contact section -->
